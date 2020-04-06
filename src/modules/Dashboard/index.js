@@ -27,7 +27,7 @@ class Dashboard extends Component {
       const newArray=findFromArray(props.data.homeData.getCsvData.data,"category");
      console.log(newArray,"...newArray");
      newArray.newCategories.push("All");
-      debugger;
+      // debugger;
       props.filteredArray(props.data.homeData.getCsvData.data);
       return {
         options:newArray.newCategories,
