@@ -1,0 +1,25 @@
+.modal-body{
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+}
+
+@media (max-width: 1440px){
+    .modal-body{
+        grid-template-columns: repeat(4, 1fr);
+        display: grid;
+    }
+}
+
+@media (max-width:1080px){
+    .modal-body{
+        display: grid;
+        grid-template-columns :repeat(3,1fr);
+    }
+}
+@media(max-width:768px){
+    .modal-body{
+        display: grid;
+        grid-template-columns :repeat(2,1fr);
+    }
+}
+

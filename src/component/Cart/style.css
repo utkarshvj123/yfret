@@ -1,0 +1,11 @@
+.fa{
+    font-size: 40px;
+    color:black;
+}
+
+
+.total{
+    display: flex;
+    height: 7px;
+    margin-left: 15px;
+}

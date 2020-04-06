@@ -1,0 +1,56 @@
+.image{
+    /* width: 5.2rem;
+    height: 5.2rem; */
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 12px;
+}
+
+
+.card{
+
+    border-radius: 12px;
+}
+/* .truncate {
+    width: 116px;
+} */
+
+.brandName{
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px;
+    padding: 0px;
+}
+
+.column{
+    /* margin: 10%; */
+    margin: 10%;
+    top: 109px
+}
+
+
+.card-title{
+    display: flex;
+}
+
+.ft-14{
+    font-size: 14px;
+}
+
+.icon-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+.fa-plus{
+    font-size: 25px;
+    color: #202529;
+}
+
+.fa-minus{
+    font-size: 25px;
+
+    color:#a93231;
+
+}
